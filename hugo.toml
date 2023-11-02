@@ -1,0 +1,4 @@
+baseURL = 'https://anddevel.com/'
+languageCode = 'en-us'
+title = 'andDEVEL'
+theme = 'ananke'
