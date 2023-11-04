@@ -1,19 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>andDEVEL</title>
-    <link>https://anddevel.com/</link>
-    <description>Recent content on andDEVEL</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 02 Nov 2023 23:35:30 +1100</lastBuildDate>
-    <atom:link href="https://anddevel.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Anddevel</title>
-      <link>https://anddevel.com/posts/initial/</link>
-      <pubDate>Thu, 02 Nov 2023 23:35:30 +1100</pubDate>
-      <guid>https://anddevel.com/posts/initial/</guid>
-      <description>Introduction 👋 Hi, I’m @anddevel 👀 I’m interested in content creation 🌱 I’m currently learning how to use DaVinci Resolve 💞️ I’m looking to collaborate on youtube videos 📫 How to reach me webmin@anddevel.com </description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>andDEVEL</title>
+        <link>https://anddevel.com/</link>
+        <description>andDEVEL</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 02 Nov 2023 23:35:30 &#43;1100</lastBuildDate>
+            <atom:link href="https://anddevel.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Anddevel</title>
+    <link>https://anddevel.com/posts/initial/</link>
+    <pubDate>Thu, 02 Nov 2023 23:35:30 &#43;1100</pubDate><guid>https://anddevel.com/posts/initial/</guid>
+    <description><![CDATA[Introduction 👋 Hi, I’m @anddevel 👀 I’m interested in content creation 🌱 I’m currently learning how to use DaVinci Resolve 💞️ I’m looking to collaborate on youtube videos 📫 How to reach me webmin@anddevel.com ]]></description>
+</item>
+</channel>
 </rss>
