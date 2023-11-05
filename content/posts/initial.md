@@ -7,8 +7,8 @@ draft = false
 
 
     👋 Hi, I’m @anddevel
-    👀 I’m interested in content creation
+    👀 I’m interested in content creation and film production
     🌱 I’m currently learning how to use DaVinci Resolve
-    💞️ I’m looking to collaborate on youtube videos
-    📫 How to reach me webmin@anddevel.com
+    💞️ I’m looking to collaborate on youtube videos and twitch streams
+    📫 You can reach me at webmin@anddevel.com
 
