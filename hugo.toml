@@ -11,6 +11,45 @@ theme = "FeelIt"
 [params]
   # FeelIt theme version
   version = "1.0.X"
+  description = "andDEVEL's personal site"
+  keywords = ["andDEVEL", "Twitch", "Youtube"]
+  defaultTheme = "auto"
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+[params.home]
+    # FeelIt NEW | 0.2.0 amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # FeelIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      subtitle = "Welcome to my site"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # FeelIt NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # FeelIt CHANGED | 1.0.1 display image-preview
+      imagePreview = true
+      # FeelIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
 
 [menu]
   [[menu.main]]
