@@ -7,7 +7,7 @@ title = "andDEVEL"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "FeelIt"
-
+googleAnalytics = "G-F25H2J3PPK"
 [params]
   # FeelIt theme version
   version = "1.0.X"
@@ -156,6 +156,7 @@ theme = "FeelIt"
     label = ""
     lightTheme = "github-light"
     darkTheme = "github-dark"
+
 
 # Markup related configuration in Hugo
 [markup]
