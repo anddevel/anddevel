@@ -149,7 +149,7 @@ googleAnalytics = "G-F25H2J3PPK"
     title = ""
     weight = 3
   [params.page.comment.utterances]
-    enable = false
+    enable = true
     # owner/repo
     repo = "anddevel/anddevel"
     issueTerm = "pathname"
