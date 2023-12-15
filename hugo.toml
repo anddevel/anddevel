@@ -20,7 +20,7 @@ googleAnalytics = "G-F25H2J3PPK"
     dateFormat = "01-02"
     rss = 10
 
-[params.home]
+  [params.home]
     # FeelIt NEW | 0.2.0 amount of RSS pages
     rss = 10
     # Home page profile
@@ -50,75 +50,23 @@ googleAnalytics = "G-F25H2J3PPK"
       # FeelIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
-  [params.social]
-    GitHub = ""
-    Linkedin = ""
-    Twitter = "anddevel"
-    Instagram = "anddevelo"
-    Facebook = ""
-    Telegram = ""
-    Medium = ""
-    Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
-    Tumblr = ""
-    Quora = ""
-    Keybase = ""
-    Pinterest = ""
-    Reddit = ""
-    Codepen = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
-    Snapchat = ""
-    Soundcloud = ""
-    Spotify = ""
-    Bandcamp = ""
-    Paypal = ""
-    Fivehundredpx = ""
-    Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = "anddevel"
-    Twitch = "anddevel"
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    Email = "taylen@anddevel.com"
-    Resume = ""
-    xda = ""
-    kaggle = ""
-    discord = "anddevel"
-    RSS = true #
+    [params.social]
+      Twitter = "anddevel"
+      Instagram = "anddevelo"
+      Facebook = ""
+      Steam = "anddevel"
+      Twitch = "anddevel"
+      Email = "taylen@anddevel.com"
+      discord = "anddevel"
+      RSS = true #
+    [params.page.comment.utterances]
+      enable = true
+      # owner/repo
+      repo = "anddevel/anddevel"
+      issueTerm = "pathname"
+      label = ""
+      lightTheme = "github-light"
+      darkTheme = "github-dark"
 
 [menu]
   [[menu.main]]
@@ -148,15 +96,6 @@ googleAnalytics = "G-F25H2J3PPK"
     url = "/categories/"
     title = ""
     weight = 3
-  [params.page.comment.utterances]
-    enable = true
-    # owner/repo
-    repo = "anddevel/anddevel"
-    issueTerm = "pathname"
-    label = ""
-    lightTheme = "github-light"
-    darkTheme = "github-dark"
-
 
 # Markup related configuration in Hugo
 [markup]
