@@ -61,8 +61,10 @@ googleAnalytics = "G-F25H2J3PPK"
       RSS = true #
     [params.page.comment]
       enable = true
-      [params.page.comment.utterances]
+      [params.page.comment.commento]
         enable = true
+      [params.page.comment.utterances]
+        enable = false
         # owner/repo
         repo = "anddevel/anddevel"
         issueTerm = "pathname"
