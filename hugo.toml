@@ -59,14 +59,16 @@ googleAnalytics = "G-F25H2J3PPK"
       Email = "taylen@anddevel.com"
       discord = "anddevel"
       RSS = true #
-    [params.page.comment.utterances]
+    [params.page.comment]
       enable = true
-      # owner/repo
-      repo = "anddevel/anddevel"
-      issueTerm = "pathname"
-      label = ""
-      lightTheme = "github-light"
-      darkTheme = "github-dark"
+      [params.page.comment.utterances]
+        enable = true
+        # owner/repo
+        repo = "anddevel/anddevel"
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
 
 [menu]
   [[menu.main]]
